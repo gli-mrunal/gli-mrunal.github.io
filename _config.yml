@@ -32,17 +32,22 @@ author: Mrunal Gavali                  # change to your full name
 github:
   username: gli-mrunal            # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+linkedin:
+  username: gli-mrunal
+
+# twitter:
+#  username: twitter_username            # change to your twitter username
 
 social:
   name: Mrunal Gavali                 # it will shows as the copyright owner in Footer
   email: gli.mrunal@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    #- https://twitter.com/username      # change to your twitter homepage
     - https://github.com/gli-mrunal       # change to your github homepage
-    - 
+    - https://www.linkedin.com/in/gli-mrunal
+
+
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

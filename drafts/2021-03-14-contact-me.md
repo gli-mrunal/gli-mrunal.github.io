@@ -1,28 +1,16 @@
 ---
-title: About
-icon: fas fa-info
-order: 4
+layout: page
+title: Contact Me
+description: Have questions? I have answers.
+background: '/img/bg-contact.jpg'
+form: true
 ---
 
 
-<!--     > **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page. 
 
--->
+# Hi, I'm Mrunal. 
 
-
-Hi, I'm Mrunal.
-
-I'm a graduate student majoring in Robotics Engineering at XYZ University.I am a Robotics engineer with a focus in perception/computer vision.Loves challenges on inference and automation. Ebullient and hyper driven to effectively work in the tech industry between R&D and deliverability. When not making robots smarter likes to tinker with IoT projects.If you have any comments or inquiries, please reach out to [gli.mrunal@gmail.com](mailto:gli.mrunal@gmail.com)
-
-Feel free to contact me!
-
-You'll find interesting stories more from me 😉 
-
-
-
-# Want to get in touch ?
-
-<p>Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+<p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
 
 
 <form name="sentMessage" id="contactForm" novalidate>
@@ -60,4 +48,3 @@ You'll find interesting stories more from me 😉
     <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
   </div>
 </form>
-
