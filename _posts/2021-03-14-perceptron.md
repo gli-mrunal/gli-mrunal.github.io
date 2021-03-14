@@ -2,7 +2,7 @@
 title: Perceptron
 author: Mrunal
 date: 2021-03-14 
-categories: [Blogging, Demo]
+categories: [Blogging, Project]
 tags: [tensorflow]
 math: true
 mermaid: true
@@ -70,7 +70,9 @@ int main() {
 
 The youtube video cam be embedded in the jekyll website as follows:
 
+![world](\Images\perceptron\06.jpg)
 
+![Perceptron](\Images\perceptron\percept.jpg)
 
 The following is implemented using jekyll plugin from:
 
@@ -135,3 +137,9 @@ $ a * b = c ^ b $
 @startuml
 Bob -> Alice : hello
 @enduml
+
+ {% youtube "https://www.youtube.com/watch?v=XCaag3dfxsQ&list=PLr5uaPu5L7xIg2GqO7HE0Tf-BCCkAf7-I&index=4" %}
+
+
+
+
