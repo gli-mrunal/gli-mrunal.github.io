@@ -1,0 +1,129 @@
+- name: Robotics Project # Project name, also used as heading
+  id: p1 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+  
+
+- name: R Project # Project name, also used as heading
+  id: p2 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+- name: tics Project # Project name, also used as heading
+  id: p3 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+- name: Robo Project # Project name, also used as heading
+  id: p4 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+
+- name: Rs Project # Project name, also used as heading
+  id: p5 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+
+- name: Music Project # Project name, also used as heading
+  id: p6 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+- name: Data Project # Project name, also used as heading
+  id: p7 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+
+- name: Ocean Project # Project name, also used as heading
+  id: p8 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+
+- name: SElf-driving car Project # Project name, also used as heading
+  id: p9 # Project id, must be unique amongst the projects
+  img_src: \Images\typography\bg-post.jpg # Optional image
+  description_less: > # Description shown at all times
+    
+    <ul>
+      <li>Machine learning</li>
+      <li>C# implementation</li>
+      <li>Optimisation algorithm</li>
+    </ul>
+  description_more: > # Description shown only when the project card is expanded  fab fa-github
+    <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
+    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
