@@ -1,3 +1,5 @@
+<!--
+
 ---
 title: Perceptron
 author: Mrunal
@@ -146,5 +148,5 @@ Bob -> Alice : hello
  {% youtube "https://www.youtube.com/watch?v=XCaag3dfxsQ&list=PLr5uaPu5L7xIg2GqO7HE0Tf-BCCkAf7-I&index=4" %}
 
 
-
+-->
 
