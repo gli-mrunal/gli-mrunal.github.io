@@ -21,3 +21,8 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+
+gem "webrick"  
+
+# webrick is not installed in ruby 3 version with jekyll 4.2.0 
+# refer to https://github.com/jekyll/jekyll/issues/8523
