@@ -5,7 +5,7 @@ order: 5
 ---
 
 
-<!--     > **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page. 
+<!--     > **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.  ![image](\Images\CV\CV_Gavali_Mrunal.jpg)
 
 -->
 
@@ -18,7 +18,7 @@ Feel free to contact me!
 
 Download my CV in PDF to view it: [Download PDF]().
 
- ![image](\Images\CV\CV_Gavali_Mrunal.jpg) 
+
 
 
 
