@@ -45,7 +45,7 @@
     </ul>
   description_more: > # Description shown only when the project card is expanded  fab fa-github
     <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
-    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+    <a href="https://gli-mrunal.netlify.app/posts/rosserial-stm32cubeide/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
 
 
 - name: Embedded Finite state machine Project  # Project name, also used as heading
@@ -60,7 +60,7 @@
     </ul>
   description_more: > # Description shown only when the project card is expanded  fab fa-github
     <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
-    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+    <a href="https://gli-mrunal.netlify.app/posts/rosserial-stm32cubeide/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
 
 
 
@@ -76,7 +76,7 @@
     </ul>
   description_more: > # Description shown only when the project card is expanded  fab fa-github
     <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
-    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+    <a href="https://gli-mrunal.netlify.app/posts/rosserial-stm32cubeide/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
 
 
 - name: Signal Capturing System Project # Project name, also used as heading
@@ -93,5 +93,5 @@
     </ul>
   description_more: > # Description shown only when the project card is expanded  fab fa-github
     <a href="https://github.com/gli-mrunal" target="_blank" class="btn btn-light mb-1"><i class="fab fa-github"></i> </a>
-    <a href="https://gli-mrunal.github.io/posts/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
+    <a href="https://gli-mrunal.netlify.app/posts/rosserial-stm32cubeide/" target="_blank" class="btn btn-light mb-1"><i class="fas fa-align-right"></i> Blog Post</a>
 
