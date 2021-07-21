@@ -1,0 +1,56 @@
+<h2 id="setup-for-react-app-for-ros-developers">Setup for React app for ROS developers</h2>
+
+<p>Create React app in visual studio code as shown in this <a href="https://reactjs.org/docs/create-a-new-react-app.html">link</a>.</p>
+
+<p>Note: First install <code class="language-plaintext highlighter-rouge">npm</code> in ubuntu to use <code class="language-plaintext highlighter-rouge">npx</code> command to create-react-app.</p>
+
+<blockquote>
+  <p>sudo apt install npm 
+npx npx create-react-app react-ros-webapp
+cd my-app
+npm start</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">react-ros-webapp</code> is the name of our app.</p>
+
+<p><code class="language-plaintext highlighter-rouge">npm start</code> gives the following output</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>
+Compiled successfully!
+
+You can now view react-ros-webapp <span class="k">in </span>the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.0.2.15:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Follow the link to see changes to your react web app.</p>
+
+<h1 id="setting-up-the-bootstrap-theme">Setting up the bootstrap theme</h1>
+
+<p>To setup the bootstrap theme go to this <a href="https://bootswatch.com/">link</a>.
+Download a bootstrap theme of your choice and put it in the <code class="language-plaintext highlighter-rouge">bootstrap folder</code> in the <code class="language-plaintext highlighter-rouge">src folder</code> of the react app folder.</p>
+
+<p>And add th following import statement to include the bootstrap theme of your choice in <code class="language-plaintext highlighter-rouge">index.js</code> inside <strong>src folder</strong>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="k">import</span> <span class="dl">'</span><span class="s1">./bootstrap/lux-bootstrap.min.css</span><span class="dl">'</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Note: do <code class="language-plaintext highlighter-rouge">npm start</code> in the visual studio code terminal  to see the changes in the  webapp.
+#</p>
+
