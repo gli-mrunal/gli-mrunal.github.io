@@ -11,12 +11,12 @@ order: 5
 
 
 Hi, I'm Mrunal.
+I am a Software Engineer passionate about AI, NLP and autonomous systems.
+If you have any comments or inquiries, please reach out to [gli.mrunal@gmail.com](mailto:gli.mrunal@gmail.com)
 
-I'm a Robotics Engineer with embedded software concentration. Ebullient and hyper driven to effectively work in the tech industry between R&D and deliverability. When not making robots smarter likes to tinker with IoT projects. If you have any comments or inquiries, please reach out to [gli.mrunal@gmail.com](mailto:gli.mrunal@gmail.com)
+Happy blogging!
 
-Feel free to contact me!
 
-Download my CV in PDF to view it: [Download PDF]().
 
 
 
