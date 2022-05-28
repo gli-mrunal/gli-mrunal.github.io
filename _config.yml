@@ -11,7 +11,7 @@ baseurl: ''
 lang: en-US
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Kolkata
+timezone: America/Los_Angeles
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
@@ -45,7 +45,7 @@ social:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username      # change to your twitter homepage
     - https://github.com/gli-mrunal       # change to your github homepage
-    - https://www.linkedin.com/in/gli-mrunal
+    - https://github.com/Mrunal-G # linkedin
 
 
     # Uncomment below to add more social links
