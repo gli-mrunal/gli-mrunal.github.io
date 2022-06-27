@@ -17,7 +17,7 @@ timezone: America/Los_Angeles
 # --------------------------
 title: Mrunal                         # the main title
 
-tagline: My Blog  ...  # it will display as the sub-title
+tagline: My Blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
