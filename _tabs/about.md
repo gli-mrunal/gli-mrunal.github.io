@@ -11,7 +11,7 @@ order: 5
 
 
 Hi, I'm Mrunal.
-I am a Software Engineer passionate about AI, NLP and autonomous systems.
+I am a Software Engineer passionate about Deep learning, AI, NLP and autonomous systems.
 <!-- If you have any comments or inquiries, please reach out to [gli.mrunal@gmail.com](mailto:gli.mrunal@gmail.com) -->
 
 Happy blogging!
