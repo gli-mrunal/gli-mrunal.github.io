@@ -1,7 +1,7 @@
 ---
 title: GSoC Community Bonding
 author: Mrunal
-date: 2022-06-13 
+date: 2022-06-23 
 categories: [GSoC Blogging]
 tags: [GSoC]
 math: true
