@@ -9,7 +9,18 @@ mermaid: true
 ---
 GSoC Project is about recommendation engine project.
 
+
 ##  Data
+
+Data is colelcted from the Pubmed Medline, Arxiv and Bioarxiv journals for neuroscience papers published for the past 5 years.
+The fields colelcted are:
+- `PMID`
+- `Title`
+- `Abstract`
+- `List of Authors`
+- `Affiliation`
+- `source` (Medline | arxiv | bioarxiv)
+- `Publish year`
 
 ## Parsing 
 
