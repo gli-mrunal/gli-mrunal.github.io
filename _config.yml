@@ -15,9 +15,9 @@ timezone: America/Los_Angeles
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Mrunal                         # the main title
+title: Mrunal P. Gavali                      # the main title
 
-tagline: My Blog   # it will display as the sub-title
+tagline: My GSoC'22 Blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
