@@ -1,7 +1,7 @@
 ---
 title: Data Parsing
 author: Mrunal
-date: 2022-06-30 
+date: 2022-06-26 
 categories: [GSoC Blogging, AI]
 tags: [GSoC]
 math: true
