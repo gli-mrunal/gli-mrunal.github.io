@@ -1,6 +1,6 @@
 ---
 title: GSoC Community Bonding
-author: Mrunal
+author: Mrunal, Alan
 date: 2022-06-23 
 categories: [GSoC Blogging]
 tags: [GSoC]
