@@ -1,5 +1,5 @@
 ---
-title: Backend for the recommendation engine
+title: SciBERT Transformer for Neuroscience
 author: Mrunal
 date: 2022-07-14 
 categories: [GSoC Blogging]
@@ -9,4 +9,5 @@ mermaid: true
 
 ---
 
-## Backend for the recommendation engine
+## SciBERT Transformer for Neuroscience
+
