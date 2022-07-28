@@ -1,5 +1,5 @@
 ---
-title: Data Parsing
+title: PubMed Data 
 author: Mrunal
 date: 2022-06-26 
 categories: [GSoC Blogging, AI]
@@ -7,7 +7,8 @@ tags: [GSoC]
 math: true
 mermaid: true
 ---
-GSoC Project is about recommendation engine project.
+
+## Automation for Pubmed XML data retrieval using E-utility
 
 
 ##  Data
