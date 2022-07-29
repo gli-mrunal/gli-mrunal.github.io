@@ -500,7 +500,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
    embeddings = convert_all_abstract_text_to_embedding(data)
    ```
    
- ## Step 6: Save the embeddings for future use
+## Step 6: Save the embeddings for future use
    
    ```python
    
