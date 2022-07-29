@@ -534,7 +534,7 @@ def create_final_embeddings(df, embeddings):
     data.head(3)
     ```
     
-    ![embeddigns column]()
+    ![embeddigns column](https://github.com/gli-mrunal/gli-mrunal.github.io/blob/master/Images/GSoC_img/emb.png)
     
     
 
