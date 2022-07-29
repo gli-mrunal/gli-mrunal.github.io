@@ -437,12 +437,12 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
 
     return(embedding)
     
-    ```
+ ```
     
     
     Now we can use the model and tokenizer to generate an embedding for the 3rd input_abstract as a way of testing as seen in the code snippet below:
     
-    ```python
+```python
     from keras_preprocessing.sequence import pad_sequences
 
     input_abstract = data.abstract.iloc[3]
@@ -451,22 +451,22 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
 
     print('Embedding shape: {}'.format(abstract_embedding.shape))
     
-    ```
+ ```
     
     Note to run the above code snippet make sure you have installed keras and tensorflow. You can install both of them in the jupyter notebook in the following way:
     
-    ```sh
+ ```sh
     !pip install keras
     
     !pip3 install tensorflow
-    ```
+ ```
     
     The output of the 3rd input abstract embedding shape is:
     
-    ```
+  ```
     Embedding shape: (768,)
     Embedding is composed of 768 values.
-   ```
+ ```
    
 ## Step 5: Create Embedding for all the abstracts
    
