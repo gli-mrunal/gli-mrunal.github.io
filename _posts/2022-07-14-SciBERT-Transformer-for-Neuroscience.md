@@ -440,7 +440,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
  ```
     
     
-    Now we can use the model and tokenizer to generate an embedding for the 3rd input_abstract as a way of testing as seen in the code snippet below:
+Now we can use the model and tokenizer to generate an embedding for the 3rd input_abstract as a way of testing as seen in the code snippet below:
     
 ```python
     from keras_preprocessing.sequence import pad_sequences
@@ -536,6 +536,16 @@ def create_final_embeddings(df, embeddings):
  
 ![embeddigns column](https://github.com/gli-mrunal/gli-mrunal.github.io/blob/master/Images/GSoC_img/emb.png)
     
+## References
+1. @inproceedings{beltagy-etal-2019-scibert, title = "SciBERT: A Pretrained Language Model for Scientific Text", author = "Beltagy, Iz and Lo, Kyle and Cohan, Arman", booktitle = "EMNLP", year = "2019", publisher = "Association for Computational Linguistics", url = "https://www.aclweb.org/anthology/D19-1371" }
+
+2. @article{johnson2019billion, title={Billion-scale similarity search with {GPUs}}, author={Johnson, Jeff and Douze, Matthijs and J{\'e}gou, Herv{\'e}}, journal={IEEE Transactions on Big Data}, volume={7}, number={3}, pages={535--547}, year={2019}, publisher={IEEE} }
+
+3. “Bert Word Embeddings Tutorial.” BERT Word Embeddings Tutorial · Chris McCormick, 14 May 2019, https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#3-extracting-embeddings.
+
+4. Keita, Zoumana. “Scientific Documents Similarity Search with Deep Learning Using Transformers (Scibert).” Medium, Towards Data Science, 17 Jan. 2022, https://towardsdatascience.com/scientific-documents-similarity-search-with-deep-learning-using-transformers-scibert-d47c4e501590.
+
+5. @article{Beltagy2020Longformer, title={Longformer: The Long-Document Transformer}, author={Iz Beltagy and Matthew E. Peters and Arman Cohan}, journal={arXiv:2004.05150}, year={2020}, }
     
 
 
