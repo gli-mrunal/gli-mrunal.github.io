@@ -13,7 +13,7 @@ mermaid: true
 
 The objective of the project is to apply pretrained SciBERT transformer model and Cosine Similarity for recommending reviewers who have published neuroscience research papers on semantically similar research topic as the user's input abstract query.
 
-### Approach:
+**Approach:**
 1. Load the pretrained SciBert model and tokenizer
 2. Vectorize documents by creating embeddings
 3. Semantic Similarity search by Cosine Similarity
@@ -439,6 +439,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
     
     ```
     
+    
     Now we can use the model and tokenizer to generate an embedding for the 3rd input_abstract as a way of testing as seen in the code snippet below:
     
     ```python
@@ -467,7 +468,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
     Embedding is composed of 768 values.
    ```
    
-   ## Step 5: Create Embedding for all the abstracts
+## Step 5: Create Embedding for all the abstracts
    
    ```python
    def convert_all_abstract_text_to_embedding(df):
@@ -499,7 +500,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
    embeddings = convert_all_abstract_text_to_embedding(data)
    ```
    
-   ## Step 6: Save the embeddings for future use
+ ## Step 6: Save the embeddings for future use
    
    ```python
    
@@ -507,13 +508,12 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
    np.save('embeddings.npy', embeddings)
    ```
    
-   ## Step 7: Load the saved .npy embeddings
+## Step 7: Load the saved .npy embeddings
    
    ```pyhton
    embeddings = np.load('embeddings.npy')
    ```
-   
-   ## Step 8: Create a new column that will contain embedding of each body text
+## Step 8: Create a new column that will contain embedding of each body text
    
    ```python
    
