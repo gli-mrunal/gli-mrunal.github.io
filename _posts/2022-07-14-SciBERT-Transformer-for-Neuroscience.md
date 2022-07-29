@@ -9,11 +9,11 @@ mermaid: true
 
 ---
 
-## SciBERT Transformer for Neuroscience
+## Hugging Face Transformer model for Neuroscience JSON data
 
 The objective of the project is to apply pretrained SciBERT transformer model and Cosine Similarity for recommending reviewers who have published neuroscience research papers on semantically similar research topic as the user's input abstract query.
 
-**Approach:**
+**Overall Approach**
 1. Load the pretrained SciBert model and tokenizer
 2. Vectorize documents by creating embeddings
 3. Semantic Similarity search by Cosine Similarity
