@@ -451,26 +451,26 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
 
     print('Embedding shape: {}'.format(abstract_embedding.shape))
     
- ```
+```
     
     Note to run the above code snippet make sure you have installed keras and tensorflow. You can install both of them in the jupyter notebook in the following way:
     
- ```sh
+```sh
     !pip install keras
     
     !pip3 install tensorflow
- ```
+```
     
     The output of the 3rd input abstract embedding shape is:
     
-  ```
+```
     Embedding shape: (768,)
     Embedding is composed of 768 values.
- ```
+```
    
 ## Step 5: Create Embedding for all the abstracts
    
-   ```python
+```python
    def convert_all_abstract_text_to_embedding(df):
     
     # The list of all the embeddings
@@ -491,31 +491,31 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
     print("Conversion Done!")
     
     return embeddings
-   ```
+```
    
    Note that creating embeddings for all the abstracts in the 3948 BioRxiv Neuroscience research papers takes atleast 2 hours in aws sagemaker.
    
-   ```python
+```python
    # This task can take a lot of time depending on the sample_size value 
    embeddings = convert_all_abstract_text_to_embedding(data)
-   ```
+```
    
 ## Step 6: Save the embeddings for future use
    
-   ```python
+```python
    
    embeddings = np.array(embeddings)
    np.save('embeddings.npy', embeddings)
-   ```
+```
    
 ## Step 7: Load the saved .npy embeddings
    
-   ```pyhton
+```pyhton
    embeddings = np.load('embeddings.npy')
-   ```
+```
 ## Step 8: Create a new column that will contain embedding of each body text
-   
-   ```python
+
+```python
    
 def create_final_embeddings(df, embeddings):
     
@@ -525,16 +525,15 @@ def create_final_embeddings(df, embeddings):
     
     return df
     
-    ```
+```
     
     To see the output:
     
-    ```pyhton
+  ```pyhton
     data = create_final_embeddings(data, embeddings)
     data.head(3)
-    ```
-    
-    ![embeddigns column](https://github.com/gli-mrunal/gli-mrunal.github.io/blob/master/Images/GSoC_img/emb.png)
+ ```
+![embeddigns column](https://github.com/gli-mrunal/gli-mrunal.github.io/blob/master/Images/GSoC_img/emb.png)
     
     
 
