@@ -534,7 +534,7 @@ def create_final_embeddings(df, embeddings):
     data.head(3)
  ```
  
-![embeddigns column](https://github.com/gli-mrunal/gli-mrunal.github.io/blob/master/Images/GSoC_img/emb.png)
+![embeddigns column](\Images\GSoC_img\emb.png)
     
 ## References
 1. @inproceedings{beltagy-etal-2019-scibert, title = "SciBERT: A Pretrained Language Model for Scientific Text", author = "Beltagy, Iz and Lo, Kyle and Cohan, Arman", booktitle = "EMNLP", year = "2019", publisher = "Association for Computational Linguistics", url = "https://www.aclweb.org/anthology/D19-1371" }
