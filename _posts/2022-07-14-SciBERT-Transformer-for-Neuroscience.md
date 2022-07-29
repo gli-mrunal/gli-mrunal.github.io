@@ -453,7 +453,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
     
 ```
     
-    Note to run the above code snippet make sure you have installed keras and tensorflow. You can install both of them in the jupyter notebook in the following way:
+ Note to run the above code snippet make sure you have installed keras and tensorflow. You can install both of them in the jupyter notebook in the following way:
     
 ```sh
     !pip install keras
@@ -461,7 +461,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
     !pip3 install tensorflow
 ```
     
-    The output of the 3rd input abstract embedding shape is:
+The output of the 3rd input abstract embedding shape is:
     
 ```
     Embedding shape: (768,)
@@ -493,7 +493,7 @@ def convert_single_abstract_to_embedding(tokenizer, model, in_text, MAX_LEN = 51
     return embeddings
 ```
    
-   Note that creating embeddings for all the abstracts in the 3948 BioRxiv Neuroscience research papers takes atleast 2 hours in aws sagemaker.
+Note that creating embeddings for all the abstracts in the 3948 BioRxiv Neuroscience research papers takes atleast 2 hours in aws sagemaker.
    
 ```python
    # This task can take a lot of time depending on the sample_size value 
@@ -527,12 +527,13 @@ def create_final_embeddings(df, embeddings):
     
 ```
     
-    To see the output:
+ To see the output:
     
   ```pyhton
     data = create_final_embeddings(data, embeddings)
     data.head(3)
  ```
+ 
 ![embeddigns column](https://github.com/gli-mrunal/gli-mrunal.github.io/blob/master/Images/GSoC_img/emb.png)
     
     
