@@ -95,7 +95,7 @@ Then the output of the top 10 similar authors (reviewers recommendations) associ
 2038    [{'author': 'Javadi, A.-H.', 'number on Paper'...
 ```
 
-Note: The corresponding abstracts fof these authors can be seen as follows:
+Note: The corresponding abstracts for these authors can be seen as follows:
 
 > top_articles # top 10 recommendations
 
