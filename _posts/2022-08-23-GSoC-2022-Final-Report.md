@@ -11,8 +11,20 @@ In this post, I will share my GSoC’22 journey with the INCF organization on th
 
 ## Highlights
 
+1. [x] Applied SciBERT to computational Neuroscience data.
+2. [x] Created BERT embeddings for abstracts.
+3. [x] Applied Cosine similarity semantic search for recommending reviewers in jupyter notebook.
+4. [x] Applied KNN using FAISS for semantic similarity search for recommending reviewers in jupyter notebook.
+5. [x] Developed Login and Authentication for Frontend web application using Typescript with Nextjs and Tailwindcss.
+
 ## Important Links
 
-## 
+
+## In Progresss
+- [ ] Dockerizing the application.
+- [ ] Scripting the jupyter notebooks.
+
+## TODO
+- [ ] Integrating the AI application in the web application using Fastapi
 
 
