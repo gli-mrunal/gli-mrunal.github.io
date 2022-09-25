@@ -43,7 +43,7 @@ In this post, I will share my GSoC’22 journey with the INCF organization on th
 
 ## Usage of the Code developed
 
-# Running Web app developed so far
+# Running Web app
 
  Usage: Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn]  (https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
