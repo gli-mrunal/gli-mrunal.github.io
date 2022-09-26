@@ -38,23 +38,9 @@ In this post, I will share my GSoC’22 journey with the INCF organization on th
 - [ ] Dockerizing the entire application.
 - [ ] Scripting the jupyter notebooks.
 - [ ] Integrating the AI application in the web application using Fastapi
-
+- [ ] Deploy web app
 
 ## Usage of the Code developed
-
-### Running Web app
-
- Usage: Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn]  (https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ### Running Data Loader
 
@@ -70,3 +56,15 @@ To run the script, simply run:
 
 To change the parameters of the function, you can simply change the values in config.yaml.The usage is self-described within the config file. If you wish to not use a certain data source for the parsing, set the parse value to false in the respective parser section.
 
+### Running Web app
+
+ Usage: 
+
+git clone the client branch of the repo and install the dependencies:
+```bash
+npx install nbdt_frontend with-tailwindcss with-tailwindcss-app
+```
+
+### For Docker setup 
+
+refer [my GSoC blog]()
