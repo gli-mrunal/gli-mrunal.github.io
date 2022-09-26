@@ -30,10 +30,9 @@ In this post, I will share my GSoC’22 journey with the INCF organization on th
 ## Important Links
 1. [The Project description for GSoC](https://summerofcode.withgoogle.com/programs/2022/projects/MDgaQFlg)
 2. [GSoC'22 github Code repository](https://github.com/nbdt-journal/automatic-reviewer-assignment) 
-3. PR [GSoC'22 github Code repository](https://github.com/nbdt-journal/automatic-reviewer-assignment) 
-4. [PR #14](https://github.com/nbdt-journal/automatic-reviewer-assignment/pull/14) SciBERT Cosine Similarity
-5. [PR #8](https://github.com/nbdt-journal/automatic-reviewer-assignment/pull/8) Client --> login implemented for email authentication using firebase
-6. Issue: [Pubmed XML data E-utility and automation in retreival](https://github.com/nbdt-journal/automatic-reviewer-assignment/blob/parser_xml_to_csv/scripts/medline_parser/Medline_E-utility.ipynb) & [Data Loader](https://github.com/nbdt-journal/automatic-reviewer-assignment/tree/parser_module/data_loader)
+3. [PR #14](https://github.com/nbdt-journal/automatic-reviewer-assignment/pull/14) SciBERT Cosine Similarity
+4. [PR #8](https://github.com/nbdt-journal/automatic-reviewer-assignment/pull/8) Client --> login implemented for email authentication using firebase
+5. Issue: [Pubmed XML data E-utility and automation in retreival](https://github.com/nbdt-journal/automatic-reviewer-assignment/blob/parser_xml_to_csv/scripts/medline_parser/Medline_E-utility.ipynb) & [Data Loader](https://github.com/nbdt-journal/automatic-reviewer-assignment/tree/parser_module/data_loader)
 
 ## In Progresss / TODO
 - [ ] Dockerizing the entire application.
