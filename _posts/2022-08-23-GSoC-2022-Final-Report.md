@@ -63,7 +63,9 @@ To change the parameters of the function, you can simply change the values in co
 
 git clone the client branch of the repo and install the dependencies:
 ```bash
-npx install nbdt_frontend with-tailwindcss with-tailwindcss-app
+cd nbdt_frontend
+$ npm install
+$ npm run dev
 ```
 
 ### Similarity Search Using KNN with Faiss
