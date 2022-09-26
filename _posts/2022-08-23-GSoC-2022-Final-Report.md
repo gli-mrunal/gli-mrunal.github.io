@@ -66,6 +66,34 @@ git clone the client branch of the repo and install the dependencies:
 npx install nbdt_frontend with-tailwindcss with-tailwindcss-app
 ```
 
-### For Docker setup 
+### Similarity Search Using KNN with Faiss
+`Faiss` is a library developed by [Facebook AI Research](https://ai.facebook.com/). According to their [wikipage](https://github.com/facebookresearch/faiss/wiki),
 
-refer [my GSoC blog]()
+`Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM`
+
+**Here are the steps to build the search engine using the previously built embeddings**:
+
+1. create the flat index: This is used to flat the vectors. The index uses the L2 (Euclidean) distance metrics to mesure the similarity betweeen the query vector and all the vectors (embeddings).
+2. add all the vectors to the index
+3. define the number K of similar document we want
+4. run the similarity search
+
+
+![knn_1](\Images\GSoC_img\knn_1.png)
+
+![knn_2](\Images\GSoC_img\knn_2.png)
+
+![knn_3](\Images\GSoC_img\knn_3.png)
+
+![knn_4](\Images\GSoC_img\knn_4.png)
+
+**Observation**
+
+- The lower the distance is, the most similar the article is to the query.
+- The first document has L2 = 0, which means 100% similarity. This is obvious, because the query was compared with itself.
+- We can simply remove it to the analysis.
+
+Note: Refer to [my GSoC blog](https://gli-mrunal.github.io/posts/Docker/) for docker setup for AI.
+
+
+**GoodBye!**
