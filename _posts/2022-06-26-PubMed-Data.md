@@ -34,6 +34,19 @@ The PubMed data is in XML or text format. The XML format is chosen for parsing s
 Since, we only need to find computational neuroscience or neuroscience related research papers, The PubMed E-utility is used to retrieve the data through automation.
 This blog walks over the process of retrieving the more than 10,000 research papers at once using the PubMed E-utility automation for 'computational+neuroscience' term.
 
+### Running Data Loader
+
+We have created a Python library for retrieving scientific data from arXiv, bioRxiv, and MEDLINE using their respective APIs, and converting to a it format usable by the automatic reviewer recommendation algorithm.
+
+Link: https://github.com/nbdt-journal/automatic-reviewer-assignment/tree/parser_module/data_loader
+
+Usage
+To run the script, simply run:
+```sh
+  python3 main.py
+```
+
+To change the parameters of the function, you can simply change the values in config.yaml.The usage is self-described within the config file. If you wish to not use a certain data source for the parsing, set the parse value to false in the respective parser section.
 
 
 ## References
