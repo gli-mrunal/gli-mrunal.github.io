@@ -10,9 +10,7 @@ tags: [NLP]
 In this post, I will share my GSoC’22 journey with the INCF organization on the project `Automatic reviewer matching using Natural Language Processing: Infrastructure for NBDT Journal ` mentored by [Dr. Konrad Kording](https://www.linkedin.com/in/konrad-kording-7284044/), [Dr.Titipat Achakulvisut](https://www.linkedin.com/in/titipata/), [Dr.Daniele Marinazzo](https://scholar.google.com/citations?user=OJbWSLoAAAAJ&hl=en).
 
 
-
-
-### [GSoC'22 github Code repository](https://github.com/nbdt-journal/automatic-reviewer-assignment) 
+It was my first time participating in GSoC. I didn’t interact much on forums before. During GSoC, I contacted many people, raised issues, did pull requests, did code reviews and contributed to other open source projects. Now I have a better understanding of how software is developed in open source and how I can do my part in building more. I want to thank everyone who helped me in my open source journey. 
 
 
 ## Highlights
@@ -33,6 +31,9 @@ In this post, I will share my GSoC’22 journey with the INCF organization on th
 3. [PR #14](https://github.com/nbdt-journal/automatic-reviewer-assignment/pull/14) SciBERT Cosine Similarity
 4. [PR #8](https://github.com/nbdt-journal/automatic-reviewer-assignment/pull/8) Client --> login implemented for email authentication using firebase
 5. Issue: [Pubmed XML data E-utility and automation in retreival](https://github.com/nbdt-journal/automatic-reviewer-assignment/blob/parser_xml_to_csv/scripts/medline_parser/Medline_E-utility.ipynb) & [Data Loader](https://github.com/nbdt-journal/automatic-reviewer-assignment/tree/parser_module/data_loader)
+
+
+### [GSoC'22 github Code repository](https://github.com/nbdt-journal/automatic-reviewer-assignment) 
 
 ## In Progresss / TODO
 - [ ] Dockerizing the entire application.
