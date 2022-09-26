@@ -91,6 +91,7 @@ npx install nbdt_frontend with-tailwindcss with-tailwindcss-app
 Now change the above code into modular functions for KNN similarity search
 
 1. Perform query
+
 ```sh
 
 
@@ -103,7 +104,7 @@ def process_query(query_text):
     query_vect = np.array(query_vect)
     query_vect = query_vect.reshape(1, -1)
     return query_vect
-```
+ ```
 3. KNN similarity search 
 
 ```sh
